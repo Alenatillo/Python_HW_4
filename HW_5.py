@@ -6,6 +6,15 @@
 # Input: 5
 # Output: yes
 
+# def is_prime(n: int, divider: int) -> bool:
+    # if divider == 1:
+        # return True
+    # if n % divider == 0:
+        # return False
+    # return is_prime(n, divider - 1)
+# 
+# n = 11
+# print(is_prime(n, n//2 + 1))
 
 # Задача №37.
 # Дано натуральное число N и
@@ -18,3 +27,12 @@
 # Input: 2 -> 3 4
 # Output: 4 3
 
+# def rev(n):
+    # if n == 0:
+        # return print('')
+    # k = int(input('Введите число: '))
+    # rev(n - 1)
+    # return print(k)
+# 
+# n = int(input('Введите колличество элементов: '))
+# rev(n)
